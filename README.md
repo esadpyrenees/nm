@@ -1,9 +1,11 @@
-# Kirby Basic Dev Kit
+# Nouveaux médias
 
-Forked from [kirby-devkit](https://github.com/julien-gargot/kirby-devkit) by Julien Gargot + Louis Eveillard. 
-Added [markdown-field](https://github.com/sylvainjule/kirby-markdown-field) plugin as submodule. 
-Updated to Gulp 4 and Kirby 3.5.
+Pôle de second cycle de l’École supérieure d’art et de design des Pyrénées.
+Julien Bidoret – Jean-Marie Blanchet – Julien Drochon – Vincent Meyer – Jean Paul Labro
 
+—
+
+Website based on [kirby basic devkit](https://github.com/jbidoret/kirby-basic-devkit.git).
 
 # Kirby Dev Kit
 
