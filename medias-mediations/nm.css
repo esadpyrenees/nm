@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box
+}
+@font-face {
+    font-family: 'LarishNeueSemibold';
+    src: url('fonts/LarishNeueSemibold-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+html,
+body {
+    /* height: 100%;cursor: url("img/pointer.svg") 10 10, auto; */
+}
+body {
+    font-family: monospace;
+    background-color: #eee;
+    margin: 0;
+    color: #333;
+    
+    line-height: 1.4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    background-blend-mode: multiply;
+    background-size: calc(2 / 3 * 80% - 20px) auto;
+    background-attachment: fixed;
+}
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+a:hover {
+    cursor: url("img/cursor.svg") 10 10, auto;
+}
+article {
+    text-align: center;
+    background: #000;
+}
+h1,
+h2,
+h3,
+p,
+ul {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+}
+
+ul {
+    margin: 1.4em 0;
+    list-style-position: inside;
+    padding: 0;
+}
+#header {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
+section {
+    width: calc(66.66% - 20px);
+    float: right;
+    padding: 40px;
+    background: #969696;
+    color: #000;
+}
+section:nth-child(2n +1) {
+    background: #333;
+    color: #ddd;
+}
+section h2,
+section h3,
+section p {
+    max-width: 45em;
+    margin-bottom: 1.4em;
+    padding-right: 40px;
+}
+section h3 {
+    margin-left: 40px;
+    text-decoration: underline;
+}
+#splash {
+    min-height: 100vh;
+    background: #666 url("img/Shackleton.jpg") no-repeat center;
+    background-blend-mode: multiply;
+    background-size: 79.5% auto;
+    background-position: calc(-66.66% - 30px) center;
+    color: #ddd;
+}
+.big {
+    font-family: sans-serif;
+    font-family: 'LarishNeueSemibold';
+    font-size: 8vw;
+    line-height: 1;
+    margin: 1.4rem 0;
+    color:#fff
+}
+
+
+
+@media screen and (max-width:550px){
+
+     #header, section {
+        position: static;
+        width: 100%;   
+        padding: 40px;
+    }
+}
+
+#images { display:none }
+.noprint { display: none; }

@@ -1,0 +1,8 @@
+
+/* Équipe
+------------------------------------------------------- */
+
+.team span { white-space: nowrap;}
+.team span:not(:last-child):after{
+  content:", "
+}

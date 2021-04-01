@@ -1,0 +1,16 @@
+
+/* Home
+------------------------------------------------------- */
+
+.text-splash h1,
+.text-splash h2,
+.text-splash h3,
+.text-splash p {
+font-size: var(--medium);
+}
+.text-splash p + p { font-size: 1em } 
+.text-splash h1::before,
+.text-splash h2::before,
+.text-splash h3::before {
+  content:"# " 
+}

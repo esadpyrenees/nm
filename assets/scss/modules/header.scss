@@ -1,0 +1,41 @@
+/* Headers
+------------------------------------------------------- */
+
+#header {
+  position: fixed;
+  top: var(--space);
+  left: var(--space);
+  @media (max-width:950px){
+    position: static; 
+    padding: var(--space);
+    br { display: none; }
+    span  { 
+        display: block; 
+        height: 0; width: 0; overflow: hidden; text-indent: 3em;
+    }
+  }
+}
+
+
+#nm path { fill: white;}
+#title a , #header a {
+  text-decoration: none;
+}
+#header a:hover { color: tomato;}
+
+#title { 
+  padding: 0;
+}
+#title h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: calc(1em + 4vw);
+  line-height: 1;
+  margin: 0;
+  color:#fff
+}
+#title a {
+  display: block;
+  padding: 0 var(--space);
+}
+#title a:hover { background: tomato;}

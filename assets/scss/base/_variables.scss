@@ -1,3 +1,11 @@
 :root{
   --basesize: 1.25rem;
+  --big: calc(1.5em + 1.5vw);
+  --medium: calc(1.5em + 1vw);
+  --space: 40px;
+}
+
+
+@media screen and (max-width:450px){
+  :root { --space: 20px }
 }

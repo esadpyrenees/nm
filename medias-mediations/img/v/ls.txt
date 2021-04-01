@@ -1,0 +1,22 @@
+<span class="img" data-img="2000_Lei_A.jpg" data-caption="Billet roumain de 2000 lei, célébrant l’éclipse solaire de 1999 – Nicolae Săftoiu">
+<span class="img" data-img="4000_years_of_history_displayed_in_a_5-foot-long_histomap__early_infographic__from_1931.jpg" data-caption="<em>The Histomap</em> — 4000 ans de l'histoire du monde en une carte de 160 cm de long, John B. Sparks, Rand McNally and Company, Chicago, 1931.">
+<span class="img" data-img="Dictionary.jpg" data-caption="<em>Vision en couleur<em>, Illustrated Dictionary of Photography, 1972 — Duncan Backhouse, Clifford Marsh, Jack Tait, George Wakefield">
+<span class="img" data-img="Eli_Lotar_1905-1969.jpg" data-caption="Eli Lotar">
+<span class="img" data-img="Organizational_diagram_of_the_New_York_and_Erie_Railroad,_1855.jpg" data-caption="<em>Diagramme organisationnel</em> de New_York et du réseau Erie Railroad, 1855.">
+<span class="img" data-img="Pyrenees.jpg" data-caption="Pyrénées - spéleologues explorant le gouffre de la Pierre Saint-Martin">
+<span class="img" data-img="Tree_Map.png" data-caption="<em>Carte proportionnelle</em> ou Tree Map qui visualise la structure d'un disque dur d'un système d'exploitation Microsoft Windows montrant la dimension de chaque dossier à l'aide de TreeSize.">
+<span class="img" data-img="africanfractal_1000.jpg" data-caption="Plan fractal d'un village traditionnel africain">
+<span class="img" data-img="de-augmention.jpg" data-caption="Dé-augmentation – Douglas Engelbart">
+<span class="img" data-img="de-augmention_2_slowing_down_the_writing_and-or_enducing_the_writer_to_produce_larger_script_1024.jpg" data-caption="Dé-augmentation – Douglas Engelbart">
+<span class="img" data-img="hartmann_schedel._creation__from__chronicle_of_the_world___nuremberg__1493.jpg" data-caption="Hartmann Schedel. La Chronique universelle de Nuremberg, 1493">
+<span class="img" data-img="icones_of_japanese_algae_vol._3__no._5__1914___pl._121_tichocarpus_crinitus__gmelin__ruprecht_-_k.okamura__tokyo__1914.jpg" data-caption="Icones of japanese algae vol. 3  no. 5 — K.Okamura, Tokyo  1914">
+<span class="img" data-img="jeanpainleve3.jpg" data-caption="Jean Painlevé avec caméra Debrie, Saint Raphaël, vers 1935 © les documents cinématographiques">
+<span class="img" data-img="jeanpainleve_1024.jpg" data-caption="Jean Painlevé avec caméra Debrie, Saint Raphaël, vers 1935 © les documents cinématographiques">
+<span class="img" data-img="joy_transmission.gif" data-caption="Joy Division, <em>Transmission</em>">
+<span class="img" data-img="katie_scott___giant_waterlily__from_botanicum_by_katie_scott___kathy_willis._published_this_week_by_big_picture_press_in_association_with_kew_gardens_1024.jpg" data-caption="Katie Scott, Giant Waterlily, from Botanicum by Katie Scott">
+<span class="img" data-img="pieuvre2.jpg" data-caption="Photogramme tiré de <em>La Pieuvre</em>, de Jean Painlevé, 1928.">
+<span class="img" data-img="shackleton_-_robert_scott_and_ernest_shackleton_in_south_georgia.jpg" data-caption="Robert Scott and Ernest Shackleton in South-Georgia, 1921">
+<span class="img" data-img="shackleton_ernest_henry_-_nimrod_gramophone.jpg" data-caption="Photography of the Nimrod Expedition (1907-09) to the Antarctic, led by Ernest Sheckleton">
+<span class="img" data-img="tableau_de_l_histoire_universelle_depuis_la_creation_jusqu_a_ce_jour_1024.jpg" data-caption="Tableau de l’histoire universelle depuis la création jusqu’à ce jour – Paris, Eugène Pick, Libraire-Editeur, Rue du Pont de Lodi, Paris, 1858">
+<span class="img" data-img="toosnow.jpg" data-caption="Winter in Siberia, 1960">
+<span class="img" data-img="voila___-_jean_painleve___1024.jpg" data-caption="Voilà, l’hebdomadaire du reportage, Jean Painlevé, 1935">

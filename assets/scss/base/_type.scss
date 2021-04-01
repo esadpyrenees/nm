@@ -1,5 +1,5 @@
 //* fonts
-// @import "../fonts/FontFamily/FontName.css";
+@import "../fonts/space/space.css";
 
 
 body{
@@ -16,3 +16,34 @@ h1, h2, h3 { font-weight: 400;}
 p, ul, ol, blockquote {
   max-width: 35em;
 }
+
+
+/* Communs
+------------------------------------------------------- */
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+a:hover {
+  cursor: url("../images/cursor.svg") 10 10, auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+
+ul {
+  margin: 1.4em 0;
+  list-style-position: inside;
+  padding: 0;
+}
+
+figure { margin: 0; padding: 0;}
+img { max-width: 100%;}

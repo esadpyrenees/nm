@@ -12,3 +12,58 @@ a {
 
 
 
+/* Communs
+------------------------------------------------------- */
+
+* { box-sizing: border-box }
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-size: .85em;
+  background-color: #eee;
+  margin: 0;
+  color: #333;    
+  line-height: 1.4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  background-blend-mode: multiply;
+  background-size: calc(2 / 3 * 80% - 20px) auto;
+  background-attachment: fixed;
+}
+
+
+
+/* slideshows
+------------------------------------------------------- */
+
+/* no circle */
+.flickity-button, .flickity-button:hover {
+  background: transparent;
+}
+.flickity-button-icon {
+  fill: white;
+}
+.slideshow-item {
+  width: 100%; /* full width */
+  height: calc((75vw - var(--space) * 2) * 9 / 16);   
+}
+.slideshow-item img {
+  height: 100%;
+  width: 100%; 
+  object-fit: cover;
+}
+
+
+/* Responsive : )
+------------------------------------------------------- */
+
+
+
+@media screen and (max-width:630px){
+     
+  .slideshow-item {
+      height: calc((100vw - var(--space) * 2) * 9 / 16);   
+  }
+  
+}

@@ -1,0 +1,28 @@
+
+
+/* Navigation
+------------------------------------------------------- */
+
+#nav{
+  background-color: #d5d5d5;    
+  padding: 20px var(--space) 20px;
+  position: sticky;
+  top:-2px;
+  z-index: 100;
+}
+#nav[stuck]::after{
+  content:"↑";
+  position: absolute;
+  right:0;
+  top:0;
+  padding: 20px var(--space) 
+}
+#nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0; margin:0;
+}
+#nav li {
+  margin: 0 1em 0 0;
+}
+#nav a { color: #000; text-decoration: none; text-transform: uppercase; letter-spacing: .035em; }

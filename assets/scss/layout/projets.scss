@@ -1,0 +1,33 @@
+
+
+/* projects
+------------------------------------------------------- */
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: var(--space);
+  @media (max-width:950px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width:600px) {
+    grid-template-columns: 1fr;
+    figure {
+      margin: calc( -1 * var(--space)) calc( -1 * var(--space)) 1em calc( -1 * var(--space));
+    }
+    .bmap {
+        width: calc(100% + var(--space) * 2 ); 
+    }
+  }
+
+}
+
+
+/* project
+------------------------------------------------------- */
+
+.project-title h1 + h2 {
+  margin: 1em 0 0;
+}
+.project-title h1 + h2:before { content: "# ";}
+

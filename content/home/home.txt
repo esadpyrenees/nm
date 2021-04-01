@@ -1,13 +1,20 @@
-Title: Home !
+Title: Accueil
 
 ----
 
-Text: 
+Text:
+
+# Admissions
+
+La première session d'inscription pour une admission en second cycle à l’École supérieure d’art et de design des Pyrénées est ouverte jusqu’au 20 mai 2021. [Inscrivez-vous !](https://esad-pyrenees.fr/journal/inscriptions-2021)
+
+
+Les dossiers d’inscription à télécharger sur le site de l’ÉSAD sont à compléter avec une lettre de motivation qui précise le projet de mobilité (erasmus ou stage), une ébauche du projet de master de l’étudiant·e, les motivations à rejoindre le pôle et un portfolio.
 
 ----
 
-Metadescription: 
+Splash-provider: vimeo
 
 ----
 
-Metaimage:
+Splash-url: https://vimeo.com/373774450/47fd9ea4c7

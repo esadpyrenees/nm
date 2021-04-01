@@ -10,7 +10,13 @@ User settings for GUlp
  * to define their loading order.
  */
 module.exports.pluginScripts = [
-  // 'node_modules/lib/dist/lib.js',
+  "assets/plyr/plyr.min.js",
+  "assets/js/imagesloaded.pkgd.min.js",
+  "assets/js/flickity.pkgd.min.js",
+  "assets/js/snap.svg-min.js",
+  "assets/js/snap.svg.easing.js",
+  "assets/js/bmap.js",
+  "assets/js/nm.js"
 ];
 
 /* List all the Styles plugin files you are using in `pluginStyles`
@@ -18,6 +24,8 @@ module.exports.pluginScripts = [
  */
 module.exports.pluginStyles = [
   // 'node_modules/lib/css/lib.css'
+  'assets/plyr/plyr.css',
+  'assets/css/flickity.css'
 ];
 
 /* List all your JavaScript file in `userScripts` to define
@@ -39,4 +47,6 @@ module.exports.userStyles = [
  * write your local dev url in the localDevUrl variable.
  * module.exports.localDevUrl = 'http://localhost/your-project/';
  */
-module.exports.localDevUrl = 'http://localhost/';
+module.exports.localDevUrl = 'http://localhost/nm/';
+
+

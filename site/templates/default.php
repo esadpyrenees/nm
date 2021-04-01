@@ -1,7 +1,19 @@
 <?php snippet('header') ?>
 
-  <h1><?= $page->title()->html() ?></h1>
+    <section>
+        <h1><?= $page->title() ?></h1>
+    </section>
 
-  <?= $page->text()->kirbytext() ?>
+    <?php if($page->intro()->isNotEmpty()) :?>
+    <section>
+        <?= $page->intro()->kt() ?>
+    </section>
+    <?php endif ?>
+
+    <?php if($page->text()->isNotEmpty()) :?>
+    <section>
+        <?= $page->text()->kt() ?>
+    </section>
+    <?php endif ?>
 
 <?php snippet('footer') ?>

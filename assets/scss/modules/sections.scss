@@ -1,0 +1,34 @@
+
+
+/* Sections
+------------------------------------------------------- */
+
+section {
+  padding: var(--space);
+  background: #cacaca;
+  color: #000;
+}
+section:nth-child(2n +1) {
+  background: #333;
+  color: #ddd;
+}
+
+section h2,
+section h3,
+section p,
+section ul,
+section ol,
+section blockquote  {
+  max-width: 45em;
+  margin-bottom: 1.5em;
+  padding-right: var(--space);
+}
+section > *:last-child { margin-bottom: 0;}
+section h3 {
+  margin:0 0 0 var(--space);
+}
+section h3::before { content: "# "; ;}
+
+.images,
+.splash { padding:0 }
+.splash img { display: block; width: 100%;}

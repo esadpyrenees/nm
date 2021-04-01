@@ -1,0 +1,53 @@
+
+/* programs
+------------------------------------------------------- */
+
+.program header {
+  position: relative;     
+}
+.program h2 { 
+  font-size: var(--big);
+  margin: 0 0 0 .5em;
+  color: black;
+  
+}
+.program figure + h2 {
+  position: absolute; 
+  bottom: 60px;
+  margin: 0;
+}
+.bmap { 
+  position: relative; 
+  display: inline-block; 
+  padding: 0;     
+  z-index: 0;
+  background: white;
+}
+
+.program .bmap {
+  background-color: tomato;
+}
+.program .bmap {
+  margin: calc( -1 * var(--space)) calc(-1 * var(--space)) 1.5em; 
+  width: calc(100% + var(--space) * 2 ); 
+}
+.bmap canvas { display: block;}
+.bmap img { opacity: 0; display: block; width: 100%; }
+.overcanvas + img { display: none;}
+.project .bmap { width: 100%;}
+.project .bmap::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top:0; left:0; right: 0; bottom: 0;
+  mix-blend-mode: screen;
+  background: tomato;
+}
+
+/* .project:nth-child(1n) .bmap::after { background: red}
+.project:nth-child(2n) .bmap::after { background: hotpink}
+.project:nth-child(3n) .bmap::after { background: lime}
+.project:nth-child(4n) .bmap::after { background: crimson}
+.project:nth-child(5n) .bmap::after { background: lightsteelblue}
+.project:nth-child(6n) .bmap::after { background: indigo}
+.project:nth-child(7n) .bmap::after { background: tomato} */

@@ -57,9 +57,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="<?= url('assets/favicons/favicon-32x32.png') ?>">
   <link rel="icon" type="image/png" sizes="16x16" href="<?= url('assets/favicons/favicon-16x16.png') ?>">
   <link rel="manifest" href="<?= url('assets/favicons/site.webmanifest') ?>">
-  <link rel="mask-icon" color="#ff160d" href="<?= url('assets/favicons/safari-pinned-tab.svg') ?>">
+  <link rel="mask-icon" color="#333333" href="<?= url('assets/favicons/safari-pinned-tab.svg') ?>">
   <link rel="shortcut icon" href="<?= url('assets/favicons/favicon.ico') ?>">
-  <meta name="msapplication-TileColor" content="#ff160d">
+  <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="<?= url('assets/favicons/browserconfig.xml') ?>">
-  <meta name="theme-color" content="#ff160d">
+  <meta name="theme-color" content="#ffffff">
   

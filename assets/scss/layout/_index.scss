@@ -5,6 +5,8 @@
 //   "sidebar"
 //   etc.
 
-body {
-  margin: 0;
-}
+@import "base.scss";
+@import "home.scss";
+@import "programs.scss";
+@import "projets.scss";
+
